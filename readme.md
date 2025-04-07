@@ -109,7 +109,7 @@ receipt-service/
 ├── Dockerfile            # Dockerfile para build da imagem
 ├── docker-compose.yml    # Orquestração com Postgres e o receipt
 ├── requirements.txt      # Dependências Python
-└── magie_logo.png        # Logotipo usado na geração do comprovante
+└── logo.png        # Logotipo usado na geração do comprovante
 ```
 
 ---
