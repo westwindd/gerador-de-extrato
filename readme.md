@@ -43,7 +43,7 @@ O projeto inclui:
 
 1. **Clonar** este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/receipt-service.git
+   git clone https://github.com/westwindd/gerador-de-recibo.git
    cd receipt-service
    ```
 
