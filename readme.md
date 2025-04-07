@@ -1,4 +1,4 @@
-# Receipt Service (FastAPI + Docker + PostgreSQL)
+# Gerador de recibo (FastAPI + Docker + PostgreSQL)
 
 Este projeto é um exemplo de microserviço Python que gera comprovantes/recibos em formato de imagem (estilo Magie), armazena-os criptografados no banco de dados PostgreSQL, e os disponibiliza via um endpoint.
 
