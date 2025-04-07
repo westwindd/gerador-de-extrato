@@ -85,7 +85,7 @@ Para gerar um comprovante, envie um `POST /generate` com JSON no seguinte format
         "account": "30054219875"
     },
     "amount": "R$ 100,00",
-    "qr_payload": "https://magie.com.br/share/abc123",
+    "qr_payload": "https://github.com/westwindd/gerador-de-recibo.git",
     "transaction_id": "e27e039-8c96-4b6b-9cb3-8bdd85441f5f"
 }
 ```
