@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: receipts
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  receipt:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+    environment:
+      PG_HOST: db
+      PG_PORT: "5432"
+      PG_DB: receipts
+      PG_USER: user
+      PG_PASSWORD: password
+      FERNET_KEY: "chave fernet"
+      HOST: "localhost"
+      PORT: "8000"
+volumes:
+  pgdata:
